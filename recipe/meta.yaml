@@ -1,5 +1,5 @@
 {% set name = "notion-client" %}
-{% set version = "1.0.0" %}
+{% set version = "1.0.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/notion-client-{{ version }}.tar.gz
-  sha256: 281b37a1512abeccb81377d4a3461833f1c1fbd0ceb6e681e38b7cd446bf1bce
+  sha256: 7caaed5de5b97fdc6fbc3296837d42672b3c3179cd4339ba31713d84083e8b97
 
 build:
   number: 0
